@@ -119,3 +119,7 @@ app/src/main/java/com/example/ledger/
 ## 改名提示
 
 包名是 `com.yuanguangbb.ledger`。要改：Android Studio 右键包名 → Refactor → Rename，再改 `app/build.gradle.kts` 里的 `namespace` 和 `applicationId`。
+
+## License
+
+MIT，见 [LICENSE](LICENSE)。
