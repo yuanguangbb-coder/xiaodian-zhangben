@@ -1,0 +1,35 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin / KSP 缓存
+.kotlin/
+**/.kotlin/
+
+# 构建产物
+*.apk
+*.aab
+/app/release/
+
+# 签名文件：绝对不要进仓库
+*.jks
+*.keystore
+keystore.properties
+
+# 本机路径与工具输出
+*.log
+*.hprof
+local.properties.*
+lint-results*.html
+lint-results*.xml
+lint-results*.txt
+
+# Room 导出的 schema 要提交（app/schemas），这里不要忽略
+!app/schemas/

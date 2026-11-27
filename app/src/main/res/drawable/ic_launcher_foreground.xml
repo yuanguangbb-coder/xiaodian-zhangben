@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 账本卡片：白卡片 + 三条账目线 + 一个收入点 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 卡片主体，留出 18dp 安全边距 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,26 L70,26 A8,8 0 0 1 78,34 L78,74 A8,8 0 0 1 70,82 L38,82 A8,8 0 0 1 30,74 L30,34 A8,8 0 0 1 38,26 Z" />
+
+    <!-- 三条账目 -->
+    <path
+        android:fillColor="#1F4E5F"
+        android:pathData="M38,40 L62,40 A2,2 0 0 1 62,44 L38,44 A2,2 0 0 1 38,40 Z" />
+    <path
+        android:fillColor="#1F4E5F"
+        android:pathData="M38,52 L56,52 A2,2 0 0 1 56,56 L38,56 A2,2 0 0 1 38,52 Z" />
+    <path
+        android:fillColor="#1F4E5F"
+        android:pathData="M38,64 L50,64 A2,2 0 0 1 50,68 L38,68 A2,2 0 0 1 38,64 Z" />
+
+    <!-- 收入绿点 -->
+    <path
+        android:fillColor="#2E7D4F"
+        android:pathData="M64,62 A6,6 0 1 0 64,74 A6,6 0 1 0 64,62 Z" />
+</vector>
