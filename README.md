@@ -3,7 +3,11 @@
 给县城个体户、小卖部、烟酒店用的记账小工具：记一笔、看利润、估个大概的税、盯住压货和卖得快的货、管赊账、看报表、发报表。
 Kotlin + Jetpack Compose + Room，单模块，MVVM，全离线，数据只存在手机上。
 
-当前版本：**0.7.0**（versionCode 10，数据库 v5）
+当前版本：**0.8.0**（versionCode 11，数据库 v5）
+
+| 首页 | 账单 | 深色模式 |
+|---|---|---|
+| ![首页](docs/screenshots/home.png) | ![账单](docs/screenshots/records.png) | ![深色](docs/screenshots/home-dark.png) |
 
 ## 功能一览
 
@@ -114,4 +118,4 @@ app/src/main/java/com/example/ledger/
 
 ## 改名提示
 
-包名目前是 `com.example.ledger`。要改：Android Studio 右键包名 → Refactor → Rename，再改 `app/build.gradle.kts` 里的 `namespace` 和 `applicationId`。
+包名是 `com.yuanguangbb.ledger`。要改：Android Studio 右键包名 → Refactor → Rename，再改 `app/build.gradle.kts` 里的 `namespace` 和 `applicationId`。

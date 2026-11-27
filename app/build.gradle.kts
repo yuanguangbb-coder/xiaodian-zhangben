@@ -17,15 +17,15 @@ val keystoreProps = Properties().apply {
 }
 
 android {
-    namespace = "com.example.ledger"
+    namespace = "com.yuanguangbb.ledger"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.ledger"
+        applicationId = "com.yuanguangbb.ledger"
         minSdk = 26
         targetSdk = 35
-        versionCode = 10
-        versionName = "0.7.0"
+        versionCode = 11
+        versionName = "0.8.0"
     }
 
     signingConfigs {

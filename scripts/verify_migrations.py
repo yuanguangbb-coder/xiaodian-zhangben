@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_DIR = ROOT / "app" / "schemas" / "com.example.ledger.data.db.AppDatabase"
+SCHEMA_DIR = ROOT / "app" / "schemas" / "com.yuanguangbb.ledger.data.db.AppDatabase"
 
 # v1 的建表语句（最初版本，没有 createdAtMillis / productId / quantity / deletedAtMillis，
 # 也没有 customers / debts / products 表）

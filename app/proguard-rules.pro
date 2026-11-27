@@ -4,7 +4,7 @@
 # 避免实体字段名被裁掉影响调试日志和以后可能的序列化。
 -keepattributes *Annotation*, InnerClasses, Signature, SourceFile, LineNumberTable
 
--keepclassmembers class com.example.ledger.data.db.** {
+-keepclassmembers class com.yuanguangbb.ledger.data.db.** {
     <fields>;
 }
 
